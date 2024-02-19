@@ -47,8 +47,8 @@ export default function MobileFooter() {
         <span className={styles.footerTab_icon}>
           <a
             href={`tel:${phoneNumber}`}
-            className="anchor_linkStyle"
-            style={{ color: "#fff" }}
+            // className="anchor_linkStyle"
+            style={{ color: "gray" }}
           >
             <IoCallOutline />
           </a>
