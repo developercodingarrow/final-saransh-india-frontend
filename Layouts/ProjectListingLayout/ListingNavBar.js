@@ -20,8 +20,8 @@ export default function ListingNavBar(props) {
           {" "}
           <Image
             src={logo}
-            width={500}
-            height={500}
+            width={100}
+            height={38}
             alt="saransh realtors logo"
           />{" "}
         </div>
