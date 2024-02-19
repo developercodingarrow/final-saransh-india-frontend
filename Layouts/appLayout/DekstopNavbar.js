@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./css/dekstopNavbar.module.css";
 import Image from "next/image";
-import logo from "../../public/web-static-images/saransh logo.png";
+import logo from "../../public/web-static-images/saransh-realtors-logo.png";
 import { dekstopNavBarTab } from "../../JsonData/PageLinks";
 import Link from "next/link";
 import { isAuth, logOut } from "../../Actions/authAction";
@@ -18,8 +18,8 @@ export default function DekstopNavbar() {
       <div className={styles.logoBox}>
         <Image
           src={logo}
-          width={100}
-          height={100}
+          width={500}
+          height={500}
           className={styles.logoStyle}
         />
       </div>
