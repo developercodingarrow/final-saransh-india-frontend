@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "./css/listedNavBar.module.css";
 import { FaBars, IoMdFunnel } from "../../Utils/ApplicationIcon";
-import logo from "../../public/web-static-images/saransh-realtors-logo.png";
+import logo from "../../public/web-static-images/saransh-realtors-white-logo.png";
 import DekstopNavbar from "../appLayout/DekstopNavbar";
 export default function ListingNavBar(props) {
   const { toggleAppDrawer, toggleSideBar, isFullel } = props;

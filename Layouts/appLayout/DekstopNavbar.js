@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./css/dekstopNavbar.module.css";
 import Image from "next/image";
-import logo from "../../public/web-static-images/saransh-realtors-logo.png";
+import logo from "../../public/web-static-images/saransh-realtors-white-logo.png";
 import { dekstopNavBarTab } from "../../JsonData/PageLinks";
 import Link from "next/link";
 import { isAuth, logOut } from "../../Actions/authAction";

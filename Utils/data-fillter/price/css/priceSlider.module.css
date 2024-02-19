@@ -31,7 +31,7 @@
   appearance: none;
   width: 20px;
   height: 20px;
-  background-color: #ed6789;
+  background-color: var(--ts-primary);
   border: 2px solid #fff;
   border-radius: 50%;
   cursor: pointer;

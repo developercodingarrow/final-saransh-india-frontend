@@ -8,8 +8,8 @@
 }
 
 .button {
-  color: #ed6789;
-  border: 2px solid #ed6789;
+  color: var(--ts-primary);
+  border: 2px solid var(--ts-primary);
   background: white;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
@@ -33,14 +33,14 @@
 }
 
 .button:hover {
-  background: #ed6789;
+  background: var(--ts-primary);
   color: white;
 }
 
 /* Card Action Btn */
 .cardEnqueryBtn {
-  color: #ed6789;
-  border: 2px solid #ed6789;
+  color: var(--ts-primary);
+  border: 2px solid var(--ts-primary);
   background: #fff;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
@@ -50,14 +50,14 @@
 }
 
 .cardEnqueryBtn:hover {
-  background: #ed6789;
+  background: var(--ts-disable-primary);
   color: white;
 }
 
 .cardDetailBtn {
   color: #fff;
-  border: 2px solid #ed6789;
-  background: #ed6789;
+  border: 2px solid var(--ts-primary);
+  background: var(--ts-primary);
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
   font-family: var(--ts-font-family);
@@ -66,7 +66,7 @@
 }
 
 .cardDetailBtn:hover {
-  background: #ed6789eb;
+  background: var(--ts-primary);
   color: white;
 }
 

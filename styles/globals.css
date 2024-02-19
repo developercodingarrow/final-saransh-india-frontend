@@ -12,10 +12,10 @@ html {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-
+/* 000050  #ed6789*/
 :root {
-  --ts-primary: #ed6789;
-  --ts-disable-primary: #ed6789b2;
+  --ts-primary: #000050;
+  --ts-disable-primary: #000050a5;
   --body-bg: #f9f9f9;
   --ts-white: #ffffff;
   --ts-gray: #7c7c7c;

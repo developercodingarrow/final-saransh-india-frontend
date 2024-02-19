@@ -13,7 +13,7 @@
 }
 
 .main_container::-webkit-scrollbar-thumb {
-  background-color: #ed6789; /* Color of the thumb */
+  background-color: var(--ts-primary); /* Color of the thumb */
 }
 
 .main_container::-webkit-scrollbar-track {

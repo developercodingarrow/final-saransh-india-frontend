@@ -8,7 +8,7 @@
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-size: 1em;
-  color: #ed6789;
+  color: var(--ts-primary);
 }
 
 .card {

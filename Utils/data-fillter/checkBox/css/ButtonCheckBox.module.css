@@ -33,5 +33,5 @@
 }
 
 .checked {
-  background-color: #ed6789;
+  background-color: var(--ts-primary);
 }
