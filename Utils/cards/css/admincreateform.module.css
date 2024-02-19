@@ -1,0 +1,38 @@
+.formContainer {
+  width: 100%;
+  box-shadow: var(--ts-box-shadow);
+  min-height: 100px;
+  background-color: var(--ts-white);
+  padding: 20px;
+  border-radius: var(--ts-20-px);
+}
+
+.formHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: var(--ts-20-px);
+}
+
+.formHeader .form_heading {
+  font-family: var(--ts-font-family);
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #0f172a;
+  text-transform: uppercase;
+}
+
+.formHeader .form_descreption {
+  color: #64748b;
+}
+
+.forgote_Password {
+  margin-bottom: var(--ts-20-px);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.SubmitbtnBox {
+  margin-bottom: var(--ts-20-px);
+}

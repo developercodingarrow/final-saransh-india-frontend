@@ -1,0 +1,86 @@
+.main_container {
+}
+
+.section_headingBox {
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.section_descreptionBox {
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.team_memberWrapper {
+  display: flex;
+  column-gap: 50px;
+}
+
+.team_memberImage {
+  width: 100%;
+  height: 100%;
+}
+
+.team_box {
+  width: 20%;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.team_profileBox {
+  position: absolute;
+  top: 0;
+  right: -300px;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  transition: right 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  row-gap: 5px;
+  text-align: center;
+}
+
+.subHeading {
+  font-weight: 500;
+  font-family: var(--ts-font-family);
+  font-size: 16px;
+}
+
+.team_box:hover .team_profileBox {
+  right: 0; /* Move to the right when .team_box is hovered */
+}
+
+@media screen and (max-width: 992px) {
+  .team_memberWrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .team_box {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .team_profileBox {
+    position: absolute;
+    top: 0;
+    right: -400px;
+  }
+
+  .team_box:hover .team_profileBox {
+    right: 0; /* Move to the right when .team_box is hovered */
+  }
+}

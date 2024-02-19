@@ -1,0 +1,32 @@
+.card_wrapper {
+}
+
+.card_titleBox {
+  padding: 0px 5px;
+  margin-bottom: var(--ts-20-px);
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #ed6789;
+}
+
+.card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
+  background: #ffffff;
+  border-radius: 16px;
+  border: initial;
+  margin-bottom: 20px;
+}
+
+.card_body {
+  padding: 32px;
+}
+
+.card_input_wrapper {
+  margin-bottom: 20px;
+}
+
+.card_btnBox {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,33 @@
+.pageTitle {
+  margin-bottom: 50px;
+}
+.componentWarper {
+  display: flex;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.left_Side {
+  width: 60%;
+}
+
+.right_Side {
+  width: 30%;
+}
+
+@media screen and (max-width: 992px) {
+  .componentWarper {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .left_Side {
+    width: 100%;
+  }
+
+  .right_Side {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 50px;
+  }
+}

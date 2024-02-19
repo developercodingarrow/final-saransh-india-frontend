@@ -1,0 +1,37 @@
+/* ButtonCheckBox.module.css */
+
+.wrapper_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.label {
+  position: relative;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.input_checkbox {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+.custom_checkbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+  margin-right: 5px;
+}
+
+.checked {
+  background-color: #ed6789;
+}

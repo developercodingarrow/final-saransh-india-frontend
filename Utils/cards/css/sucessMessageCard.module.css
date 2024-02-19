@@ -1,0 +1,34 @@
+.formContainer {
+  width: 100%;
+  box-shadow: var(--ts-box-shadow);
+  min-height: 100px;
+  background-color: var(--ts-white);
+  border-radius: 10px;
+  flex-direction: column;
+  row-gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.successBox {
+  display: flex;
+  align-items: center;
+}
+
+.suces_iconBox {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--ts-separator);
+  background-color: #4caf50; /* Green color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+}
+
+.suces_iconBox svg {
+  fill: white; /* White color for the checkmark icon */
+}

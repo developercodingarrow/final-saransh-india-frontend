@@ -1,0 +1,74 @@
+.main_container {
+  position: relative;
+}
+
+.hero_section {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.home_listingSearchBox {
+  display: none;
+}
+
+.mobile_footerWrapper {
+  display: none;
+}
+
+.aboutUs_section {
+  background: #fff;
+  box-shadow: var(--ts-box-shadow);
+}
+
+.team_section,
+.testimonials_section {
+  padding: 100px 250px;
+}
+
+@media screen and (max-width: 992px) {
+  .hero_section {
+    margin-top: 10px;
+  }
+
+  .home_listingSearchBox {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 50px;
+    background-color: #fff;
+    box-shadow: var(--ts-box-shadow);
+    z-index: 10;
+  }
+
+  .featureListing_section {
+    margin-bottom: 20px;
+  }
+
+  .team_section,
+  .testimonials_section {
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+
+  .footer_container {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: var(--ts-white);
+    box-shadow: var(--ts-box-shadow);
+  }
+
+  .dekstop_footer {
+    display: none;
+  }
+
+  .mobile_footerWrapper {
+    display: block;
+  }
+}

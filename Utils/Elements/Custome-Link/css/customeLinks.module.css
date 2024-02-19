@@ -1,0 +1,13 @@
+.linkStyle {
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+}
+
+.linkColor {
+  color: #007bff;
+}
+
+.linkSize {
+  font-size: 14px;
+}

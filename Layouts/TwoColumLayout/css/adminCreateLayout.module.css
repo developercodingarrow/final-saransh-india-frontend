@@ -1,0 +1,31 @@
+.componentWrapper {
+  display: flex;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.tablePart {
+  width: 70%;
+}
+
+.formPart {
+  width: 30%;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 992px) {
+  .componentWrapper {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .tablePart {
+    width: 100%;
+  }
+
+  .formPart {
+    width: 100%;
+  }
+}

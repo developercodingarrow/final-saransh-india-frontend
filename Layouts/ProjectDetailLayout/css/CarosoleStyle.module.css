@@ -1,0 +1,16 @@
+.CoverCarosole {
+  width: 100%;
+  height: 550px !important;
+}
+
+.floorPlanCarosole {
+  width: 100%;
+  height: 300px;
+}
+
+@media screen and (max-width: 992px) {
+  .CoverCarosole {
+    width: 100%;
+    height: 200px !important;
+  }
+}

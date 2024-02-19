@@ -1,0 +1,91 @@
+/* dynimicTable.module.css */
+
+.table_container {
+  background-color: #fff;
+  max-width: 100%;
+  box-shadow: var(--mui-table-container-shadow);
+  height: auto;
+}
+
+.table_wrapper {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 500px;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-height: 300px;
+}
+
+.tableHeader {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.tableTr {
+  background-color: #fff;
+  border-bottom: 2px solid rgba(224, 224, 224, 1);
+}
+.table th {
+  font-weight: 500;
+  font-family: var(--bs-font-family);
+  font-size: 14px;
+}
+
+.table_body {
+  min-height: 200px;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: center;
+}
+
+.table td {
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.table_footerContainer {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 10px;
+}
+
+.row_perPageBox {
+  font-size: 14px;
+  font-family: var(--bs-font-family);
+}
+
+.row_selectBox {
+}
+
+.row_totalNumerBox {
+  display: flex;
+  column-gap: 5px;
+}
+
+.row_arrowBox {
+  display: flex;
+  column-gap: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .table_container {
+    /* border: 1px solid red; */
+  }
+
+  .table th {
+    font-weight: 300;
+    font-family: var(--bs-font-family);
+    font-size: 12px;
+  }
+}

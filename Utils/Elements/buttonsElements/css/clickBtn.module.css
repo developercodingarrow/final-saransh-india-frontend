@@ -1,0 +1,50 @@
+.btnStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  background-color: var(--ts-primary);
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.btnPading {
+  padding: 5px;
+}
+
+.detailBtn {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: var(--ts-primary);
+  color: #fff;
+  border-radius: 3px;
+  font-family: var(--bs-font-family);
+  font-weight: var(--ts-font-weight-400);
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 5px 7px;
+  cursor: pointer;
+}
+
+.largeBtn {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: var(--ts-primary);
+  color: #fff;
+  border-radius: 5px;
+  font-family: var(--bs-font-family);
+  font-weight: var(--ts-font-weight-400);
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  cursor: pointer;
+}

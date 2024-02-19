@@ -1,0 +1,93 @@
+.topBar_fullChart {
+  width: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  box-shadow: var(--ts-box-shadow);
+  padding: 20px;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center the chart horizontally */
+  align-items: center; /* Center the chart vertically */
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.componentWrapper {
+  display: flex;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.statsTab_Container {
+  width: 40%;
+  background-color: #fff;
+  padding: 20px 0px;
+}
+
+.statsTab_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.stats_tabBox {
+  flex-grow: 1;
+  border: 0.5px solid var(--ts-separator);
+  border-right: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 3);
+  padding: 20px;
+  box-shadow: var(--ts-box-shadow);
+}
+
+.stats_oprionBox {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab_iconBox {
+  color: var(--ts-primary);
+  border: 1px solid var(--ts-separator);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.tab_numberBox,
+.tab_titleBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sideGraph_container {
+  width: 60%;
+  background-color: #fff;
+  box-shadow: var(--ts-box-shadow);
+  padding: 20px 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .componentWrapper {
+    flex-direction: column;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .statsTab_Container {
+    width: 100%;
+  }
+
+  .sideGraph_container {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+}

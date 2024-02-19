@@ -1,0 +1,164 @@
+/* dynimicTable.module.css */
+
+.table_container {
+  /* background-color: #fff;
+  overflow: auto;
+  max-width: 100%;
+  box-shadow: var(--mui-table-container-shadow); */
+}
+
+.table_wrapper {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 400px;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableTr {
+  /* font-weight: 500;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 12px;
+  color: #afafaf; */
+}
+.table th {
+  font-weight: 500;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  color: #afafaf;
+}
+
+.table_body {
+  /* background-color: #fff; */
+}
+
+/* Adjust padding for both th and td */
+.table th,
+.table td {
+  padding: 8px;
+  /* border: 1px solid green; */
+  text-align: center;
+}
+
+.table td {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.table_row {
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border-bottom: 10px solid #afafaf5a;
+}
+
+/* YourComponent.module.css */
+
+/* YourComponent.module.css */
+
+.card_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adjust the gap between elements */
+}
+
+.tableHeader {
+  display: flex;
+}
+
+.tableHeaderCell {
+  flex: 1;
+  font-weight: 500;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  color: #afafaf;
+  /* border: 1px solid #dddddd; */
+  padding: 5px;
+  /* background-color: #f2f2f2; */
+}
+
+.table_body {
+  display: flex;
+  flex-direction: column;
+}
+
+.tableRow {
+  display: flex;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  height: 90px;
+}
+
+.numberCell {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageCell {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_footerContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.row_perPageBox {
+  margin-right: 10px;
+}
+
+.row_selectBox {
+  margin-right: 10px;
+}
+
+.row_totalNumerBox {
+  margin-right: 10px;
+}
+
+.row_arrowBox {
+  display: flex;
+}
+
+.row_arrowBox span {
+  margin-right: 5px;
+}
+
+.table_footerContainer {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 10px;
+}
+
+.row_perPageBox {
+  font-size: 14px;
+  font-family: var(--bs-font-family);
+}
+
+.row_selectBox {
+}
+
+.row_totalNumerBox {
+  display: flex;
+  column-gap: 5px;
+}
+
+.row_arrowBox {
+  display: flex;
+  column-gap: 10px;
+}

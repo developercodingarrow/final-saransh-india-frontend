@@ -1,0 +1,42 @@
+/* ToggleSwitch.css */
+
+.toggle_switch {
+  width: 30px; /* Adjust the width as needed */
+  height: 10px;
+  border: 1px solid var(--ts-separator);
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  background-color: var(--ts-primary);
+}
+
+.toggle_switchActive {
+  width: 30px; /* Adjust the width as needed */
+  height: 10px;
+  border: 1px solid var(--ts-separator);
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  background-color: var(--ts-muted);
+}
+
+.round_button {
+  width: 15px; /* Adjust the width as needed */
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: -3px;
+  transition: transform 0.3s, background-color 0.3s;
+  box-shadow: var(--ts-box-shadow);
+}
+
+.on .round_button {
+  transform: translateX(15px);
+  background-color: var(--ts-muted);
+}
+
+.off .round_button {
+  transform: translateX(1px);
+  background-color: var(--ts-primary);
+}

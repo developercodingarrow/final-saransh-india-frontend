@@ -1,0 +1,27 @@
+.componentWrapper {
+  display: flex;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.tablePart {
+  width: 90%;
+}
+
+.formPart {
+  width: 10%;
+}
+
+.card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
+  background: #ffffff;
+  border-radius: 16px;
+  border: initial;
+  margin-bottom: 20px;
+  border: 1px solid red;
+  min-height: 100px;
+}
+
+.tableContainer {
+  padding: 32px;
+}

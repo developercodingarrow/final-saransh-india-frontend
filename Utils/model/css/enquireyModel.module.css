@@ -1,0 +1,31 @@
+.enquery_container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  background-color: #dddddd9e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_Wrapper {
+  border: 1px solid var(--ts-separator);
+  width: 25%;
+  position: relative;
+}
+
+.close_Box {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .form_Wrapper {
+    width: 90%;
+  }
+}

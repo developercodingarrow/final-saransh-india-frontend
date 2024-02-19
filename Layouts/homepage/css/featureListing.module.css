@@ -1,0 +1,135 @@
+.main_container {
+  padding: 100px;
+}
+
+.sectionHeader_box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-bottom: 50px;
+}
+
+.card_wrraper {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.card_container {
+  box-shadow: var(--ts-box-shadow);
+  border: 1px solid var(--ts-separator);
+  width: 25%;
+  background-color: #fff;
+}
+
+.card_ImageWrapper {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.card_imageTag {
+  position: absolute;
+  top: 0;
+  background-color: var(--ts-primary);
+  color: #fff;
+  padding: 3px;
+  text-transform: uppercase;
+  font-weight: var(--ts-font-weight-300);
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: var(--bs-font-family);
+}
+
+.cardImageStyle {
+  width: 100%;
+  height: 100%;
+}
+
+.card_body {
+  padding: 10px;
+}
+
+.card_titleBox {
+  margin-bottom: 10px;
+}
+
+.twoColumBox {
+  display: flex;
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.unitType_box {
+  display: flex;
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.unitIconBox {
+  display: flex;
+  align-items: center;
+}
+
+.text_style {
+  font-weight: var(--ts-font-weight-300);
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: var(--bs-font-family);
+  text-transform: uppercase;
+}
+
+.twoColum_spacingBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnBox {
+  display: flex;
+  align-items: center;
+}
+
+.card_priceBox {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  color: var(--ts-primary);
+}
+
+.priceText {
+  font-weight: var(--ts-font-weight-400);
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: var(--bs-font-family);
+  text-transform: uppercase;
+  display: flex;
+  column-gap: 5px;
+}
+
+.card_footer {
+  border-top: 1px solid var(--ts-separator);
+  padding: 10px;
+}
+
+.rera_wrapper {
+  display: flex;
+  column-gap: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .main_container {
+    padding: 10px;
+  }
+
+  .card_wrraper {
+    flex-direction: column;
+  }
+
+  .card_container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,76 @@
+.card_wrapper {
+  margin-top: 20px;
+}
+
+.card_titleBox {
+  padding: 0px 5px;
+  margin-bottom: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #ed6789;
+}
+
+.card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
+  background: #ffffff;
+  border-radius: 16px;
+  border: initial;
+  margin-bottom: 20px;
+}
+
+.card_body {
+  padding: 32px;
+}
+
+.card_input_wrapper {
+  margin-bottom: 20px;
+}
+
+.card_btnBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* chip */
+
+.inputContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  background-color: #ffff;
+  padding: 6px 10px;
+  margin-bottom: 20px;
+}
+
+.chip {
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  padding: 5px 7px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.removeIcon {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.input {
+  border: none;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  flex-grow: 1;
+  outline: none;
+}
+
+.submitBtn_wrapper {
+  display: flex;
+  justify-content: flex-end;
+}

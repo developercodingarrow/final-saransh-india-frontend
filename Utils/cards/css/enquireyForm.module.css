@@ -1,0 +1,16 @@
+.main_container {
+  box-shadow: var(--ts-box-shadow);
+  background-color: var(--ts-white);
+  border-radius: 5px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.form_heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}

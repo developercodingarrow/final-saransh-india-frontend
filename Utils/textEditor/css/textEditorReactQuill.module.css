@@ -1,0 +1,41 @@
+.card_wrapper {
+  margin-bottom: 20px;
+}
+
+.card_titleBox {
+  padding: 0px 5px;
+  margin-bottom: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #ed6789;
+}
+
+.card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
+  background: #ffffff;
+  border-radius: 16px;
+  border: initial;
+  height: 350px;
+}
+
+.card_body {
+  position: relative;
+  padding: 32px;
+  height: 350px;
+}
+
+.reactQuill_style {
+  height: 180px;
+}
+.textEditor_wrapper {
+  margin-bottom: 20px;
+}
+
+.submitBtn_wrapper {
+  position: absolute;
+  bottom: 20px;
+  right: 35px;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,54 @@
+.dateInput_container {
+  border: 1px solid gray;
+  padding: 5px 10px;
+  display: flex;
+  column-gap: 20px;
+  row-gap: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
+  border-radius: var(--ts-10-border-radius);
+  background: var(--ts-white);
+  border: 1px solid var(--ts-primary);
+}
+
+.dateinput {
+  font-size: 14px;
+  height: auto;
+  min-height: 30px;
+  color: #4e4e4e;
+  box-shadow: initial;
+  transition: border-color 0.15s ease-in-out;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btnStyle {
+  display: inline-block;
+  border: 1px solid var(--ts-primary);
+  padding: 5px 10px;
+  text-transform: uppercase;
+  background-color: var(--ts-white);
+  color: var(--ts-heading-color);
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.btnStyle:hover {
+  background-color: var(--ts-primary);
+  color: var(--ts-white);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .dateinput {
+    font-size: 10px;
+    min-height: 20px;
+  }
+
+  .btnStyle {
+    padding: 3px 7px;
+    border-radius: 3px;
+    font-size: 10px;
+  }
+}

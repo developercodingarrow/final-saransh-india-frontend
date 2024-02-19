@@ -1,0 +1,47 @@
+.componentWrapper {
+  display: flex;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.tablePart {
+  width: 70%;
+}
+
+.fullTable {
+  width: 100%;
+}
+
+.formPart {
+  width: 30%;
+  margin-top: 100px;
+}
+
+.card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
+  background: #ffffff;
+  border-radius: 16px;
+  border: initial;
+  margin-bottom: 20px;
+  border: 1px solid red;
+}
+
+.tableContainer {
+  padding: 32px;
+}
+
+@media screen and (max-width: 992px) {
+  .componentWrapper {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+  .tablePart {
+    width: 100%;
+  }
+
+  .formPart {
+    width: 100%;
+  }
+}

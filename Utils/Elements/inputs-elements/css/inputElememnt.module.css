@@ -1,0 +1,55 @@
+.block_container {
+  display: flex;
+  flex-direction: column;
+  column-gap: 38px;
+  row-gap: 8px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.lable_Box {
+  margin: 0px;
+}
+
+.lable_style {
+  color: var(--ts-gray);
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+
+.inputBox {
+}
+
+.inputDesign {
+  font-size: 14px;
+  width: 100%;
+  height: auto;
+  min-height: var(--ts-20-px);
+  box-shadow: initial !important;
+  border-radius: 10px;
+  transition: border-color 0.15s ease-in-out;
+  outline: none;
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--ts-text-color);
+  background-color: #fff;
+  border: var(--ts-1px-border);
+  appearance: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input_Padding {
+  padding: 6px 10px;
+}
+
+.readOnlyInput {
+  background-color: var(--ts-read-input-bg);
+}
+
+.editableInput {
+  background-color: var(--ts-white);
+}

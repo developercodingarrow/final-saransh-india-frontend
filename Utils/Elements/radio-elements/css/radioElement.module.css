@@ -1,0 +1,117 @@
+/* RadioInput.module.css */
+
+/* Styles for the radio container */
+
+.inlineRadio_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.inlineradioTitleGap {
+  column-gap: 20px;
+  row-gap: 20px;
+  text-transform: capitalize;
+}
+
+.radio_title {
+  text-transform: capitalize;
+  color: var(--ts-gray);
+}
+
+.radio_btn_textGap {
+  margin: 0px var(--ts-gap-20);
+}
+
+/* .radio_box {
+    display: flex;
+    row-gap: 10px;
+    border: 1px solid red;
+  } */
+
+/* Styles for individual radio option */
+.radioOption {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.inline_radioOptionBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+/* Styles for the outer circle */
+.outerCircle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #969faf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Styles for the inner dot */
+.innerDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Styles for the selected inner dot */
+.innerDot.selected {
+  background-color: var(--ts-primary); /* Selected color */
+}
+
+/* Styles for the selected outer circle */
+.outerCircle.selected {
+  border-color: var(--ts-primary);
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* in a row */
+.rowRadio_container {
+  display: flex;
+  flex-direction: column;
+  column-gap: 5px;
+}
+
+.title_rowGap {
+  row-gap: var(--ts-gap-20);
+  column-gap: var(--ts-gap-20);
+}
+
+.row_radioOptionBox {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--ts-gap-20);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .inlineRadio_container {
+    flex-direction: column;
+  }
+
+  .inline_radioOptionBox {
+    flex-direction: column;
+    justify-content: start;
+    align-items: self-start;
+  }
+
+  .radio_btn_textGap {
+    margin: 0px 10px;
+  }
+}

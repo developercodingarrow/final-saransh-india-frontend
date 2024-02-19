@@ -1,0 +1,43 @@
+.fullWidthBtn {
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: var(--bs-font-family);
+  width: 100%;
+  border: 1px solid var(--ts-primary);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primaryBtnColor {
+  background-color: var(--ts-primary);
+}
+
+.fullWidthBtnSize {
+  font-size: var(--ts--fullwidth-btn-font-size);
+  padding: var(--ts-fullwidth-btn-padding);
+}
+
+.disableStyle {
+  border: none;
+  background: var(--ts-disable-primary);
+  color: #fff;
+  text-transform: uppercase;
+  cursor: not-allowed;
+  font-size: var(--ts--fullwidth-btn-font-size);
+  padding: var(--ts-fullwidth-btn-padding);
+  font-family: var(--bs-font-family);
+  width: 100%;
+}
+
+.button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-1px);
+}
+
+.button:focus {
+  outline: none;
+}

@@ -1,0 +1,44 @@
+.AsideOptions_mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+  z-index: 10;
+}
+
+.options_tabContainer {
+  /* border: 1px solid gray; */
+}
+
+.options_Tab {
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--ts-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.options_Tab:hover {
+  background-color: var(--ts-primary);
+  color: var(--ts-white);
+}
+
+.option_Tab_iconBox {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.option_Tab_Text {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.footeroption_Tab_Text {
+  font-size: 12px;
+}

@@ -1,0 +1,76 @@
+/* ActionBtn.module.css */
+
+.Btnwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.button {
+  color: #ed6789;
+  border: 2px solid #ed6789;
+  background: white;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: var(--ts-font-family);
+  text-transform: uppercase;
+}
+
+.buttonPadding {
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.deleteIconBtnPadding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background: #ed6789;
+  color: white;
+}
+
+/* Card Action Btn */
+.cardEnqueryBtn {
+  color: #ed6789;
+  border: 2px solid #ed6789;
+  background: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: var(--ts-font-family);
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.cardEnqueryBtn:hover {
+  background: #ed6789;
+  color: white;
+}
+
+.cardDetailBtn {
+  color: #fff;
+  border: 2px solid #ed6789;
+  background: #ed6789;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: var(--ts-font-family);
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.cardDetailBtn:hover {
+  background: #ed6789eb;
+  color: white;
+}
+
+.doneBtnPadding {
+  padding: 3px 10px;
+  border-radius: 5px;
+}

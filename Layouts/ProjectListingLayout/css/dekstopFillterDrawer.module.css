@@ -1,0 +1,32 @@
+.main_container {
+  width: 100%;
+  padding: 10px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.main_container::-webkit-scrollbar {
+  width: 3px; /* Width of the vertical scrollbar */
+  border-radius: 10px;
+}
+
+.main_container::-webkit-scrollbar-thumb {
+  background-color: #ed6789; /* Color of the thumb */
+}
+
+.main_container::-webkit-scrollbar-track {
+  background-color: #fff; /* Color of the track */
+}
+
+.fillter_container {
+}
+
+.fillter_title {
+  font-size: 16px;
+  font-weight: 500px;
+}
+
+.fiilter_option_wrapper {
+}

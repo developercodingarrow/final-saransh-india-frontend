@@ -1,0 +1,284 @@
+.card_container {
+  border: 1px solid var(--ts-separator);
+  box-shadow: var(--ts-box-shadow);
+  display: flex;
+  background-color: var(--ts-white);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.card_detailsWrapper {
+  display: flex;
+  flex-grow: 1;
+  padding: 10px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.image_Style {
+  border: 1px solid var(--ts-separator);
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.details_Container {
+  flex-grow: 1;
+  padding: 10px 0px;
+}
+
+.titleBox {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.title_detail {
+  flex-grow: 1;
+}
+.price_details {
+  display: none;
+}
+
+.project_main_Detail {
+  display: flex;
+  column-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.mainDetail_Box {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  text-transform: uppercase;
+}
+
+.mainDetail_iconBox {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.baise_deatils {
+  display: flex;
+  box-shadow: var(--ts-box-shadow);
+}
+
+.unitType_box {
+  display: flex;
+  column-gap: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.unitIconBox {
+  display: flex;
+  align-items: center;
+}
+
+.unitValueBox {
+  font-weight: var(--ts-font-weight-300);
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: var(--bs-font-family);
+}
+
+.baiseBox {
+  display: flex;
+  column-gap: 5px;
+}
+
+.unitBox_icon {
+  display: flex;
+  align-items: center;
+}
+
+.unitBox_details {
+}
+
+.baise_areWarpper {
+  display: flex;
+  flex-grow: 1;
+}
+.baiseAreaBox {
+  display: flex;
+  column-gap: 5px;
+  padding: 5px;
+  border: 1px solid var(--ts-separator);
+  flex-grow: 1;
+}
+
+.areaBox_icon {
+  display: flex;
+  align-items: center;
+}
+
+.baiseBox_title {
+  margin-bottom: 5px;
+  font-weight: var(--ts-font-weight-300);
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: var(--bs-font-family);
+}
+
+.card_actionContainer {
+  border: 1px solid var(--ts-separator);
+  background-color: var(--ts-card-gray);
+}
+
+.dekstop_actionBox {
+  display: flex;
+  flex-direction: column;
+}
+.mobile_actionBox {
+  display: none;
+}
+
+.card_priceBox {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  row-gap: 5px;
+  column-gap: 5px;
+}
+
+.dekstop_actionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  justify-content: center;
+  height: 132px;
+  flex-shrink: 1;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1290px) {
+  .baise_deatils {
+    display: block;
+  }
+
+  .baise_UnitBox {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .dekstop_actionBox {
+    display: none;
+  }
+
+  .mobile_actionBox {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0px 5px;
+  }
+
+  /*upper  */
+  .card_container {
+    flex-direction: column;
+  }
+
+  .card_detailsWrapper {
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .image_Style {
+    width: 100%;
+    height: 200px;
+    border-radius: 0px;
+  }
+
+  .titleBox {
+    column-gap: 10px;
+    margin-bottom: 5px;
+  }
+
+  .details_Container {
+    padding: 5px;
+  }
+
+  .title_detail {
+    flex-grow: 1;
+    width: 50%;
+    font-weight: 500;
+    font-family: var(--ts-font-family);
+    text-transform: capitalize;
+  }
+
+  .price_details {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    column-gap: 5px;
+    color: var(--ts-primary);
+  }
+  .price_iconBox {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .project_main_Detail {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .mainDetail_Box {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+  }
+
+  .mainDetail_iconBox {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .baise_deatils {
+    flex-direction: column;
+  }
+
+  .baiseBox {
+    display: flex;
+    align-items: center;
+  }
+
+  .baiseBox_title {
+    display: none;
+  }
+
+  .baise_UnitBox {
+    width: 100%;
+    border: none;
+  }
+
+  .baiseAreaBox {
+    display: flex;
+    column-gap: 5px;
+    padding: 5px;
+    flex-grow: 1;
+    border: none;
+  }
+
+  .mobile_actionIconBox {
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  .whatsaapIcon {
+    color: #08bf3f;
+  }
+}

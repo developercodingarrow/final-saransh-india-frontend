@@ -1,0 +1,86 @@
+.main_Container {
+  display: flex;
+  row-gap: var(--ts-gap-20);
+  column-gap: var(--ts-gap-20);
+}
+
+.inLine_customCheckbox_wrapper {
+  display: flex;
+  flex-direction: column;
+  column-gap: var(--ts-gap-20);
+  row-gap: var(--ts-gap-20);
+  margin-bottom: 20px;
+}
+
+.inLine_checkBox_container {
+  display: flex;
+  row-gap: var(--ts-gap-20);
+  column-gap: var(--ts-gap-20);
+  flex-wrap: wrap;
+}
+
+/* Block style Part */
+.block_customeChecBox_warper {
+  display: flex;
+  flex-direction: column;
+  column-gap: var(--ts-gap-20);
+  row-gap: var(--ts-gap-20);
+}
+
+.block_checkBox_container {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--ts-gap-20);
+  column-gap: var(--ts-gap-20);
+}
+
+/* Check Box style */
+
+.label_Box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.title_box {
+  color: var(--ts-gray);
+}
+
+.checkBoxLable {
+  color: var(--ts-gray);
+}
+
+.lableChecked {
+  color: var(--ts-primary);
+}
+
+.customCheckbox {
+  width: var(--ts-gap-20);
+  height: var(--ts-gap-20);
+  border: 2px solid var(--ts-primary);
+  border-radius: 4px;
+  position: relative;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.checked {
+  color: var(--ts-primary); /* Color for the checked checkmark */
+}
+.checkedMark {
+  color: var(--ts-primary); /* Color for the checkmark */
+}
+
+@media screen and (max-width: 992px) {
+  .inLine_customCheckbox_wrapper {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .inLine_checkBox_container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+}

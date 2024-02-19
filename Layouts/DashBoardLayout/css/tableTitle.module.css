@@ -1,0 +1,9 @@
+.table_titleBox {
+  padding: 0px 5px;
+  margin-bottom: var(--ts-20-px);
+  font-family: var(--bs-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--ts-primary);
+  text-transform: uppercase;
+}

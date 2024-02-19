@@ -1,0 +1,81 @@
+.mainConatiner {
+  font-family: var(--ts-font-family);
+}
+
+.fillterDrawer_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.headerLeft_side {
+  display: flex;
+  column-gap: 20px;
+}
+
+.header_closeIconBox {
+  font-size: 30px;
+  color: var(--ts-gray);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_title {
+  font-size: 20px;
+  font-family: var(--ts-font-family);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerRight_side {
+  color: var(--ts-primary);
+}
+
+.fillterTab_container {
+  display: flex;
+  border: var(--ts-1px-border);
+  font-weight: var(--ts-font-weight-300);
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: var(--bs-font-family);
+}
+
+.tab_wrapper {
+  width: 40%;
+  font-size: 12px;
+}
+
+.tab_option {
+  border: var(--ts-1px-border);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.tab_iconBox {
+  font-size: 16px;
+  color: var(--ts-gray);
+}
+
+.tabTextBox {
+  font-family: var(--ts-font-family);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.arrowBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--ts-gray);
+  font-size: 14px;
+}
+
+.render_optionBox {
+  padding: 20px;
+  width: 60%;
+}
