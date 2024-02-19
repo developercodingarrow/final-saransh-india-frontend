@@ -227,7 +227,7 @@ export default function ProjectDetailsLayout() {
             <div className={styles.footer_iconBox}>
               <div className={styles.iconBox}>
                 <a
-                  href="https://wa.link/vj4hzq"
+                  href="https://wa.link/153mwk"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="anchor_linkStyle"

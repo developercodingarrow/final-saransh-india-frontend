@@ -176,7 +176,7 @@ export default function ListingCard(props) {
         <div className={styles.mobile_actionBox}>
           <div className={styles.mobile_actionIconBox}>
             <a
-              href="https://wa.link/vj4hzq"
+              href="https://wa.link/153mwk"
               target="_blank"
               rel="noopener noreferrer"
             >

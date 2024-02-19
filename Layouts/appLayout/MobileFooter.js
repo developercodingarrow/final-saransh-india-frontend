@@ -12,7 +12,7 @@ import { AppContext } from "../../ContextApi/AppContextApi";
 
 export default function MobileFooter() {
   const { handelOpenEnqueryModel } = useContext(AppContext);
-
+  const phoneNumber = "+91-9717930806";
   return (
     <div className={styles.mobile_footer}>
       <Link href="/" className={styles.footerTab_link}>
@@ -43,12 +43,18 @@ export default function MobileFooter() {
         <span className={styles.footerTab_text}>Blogs</span>
       </Link>
 
-      <Link href="/property" className={styles.footerTab_link}>
+      <div className={styles.footerTab_link}>
         <span className={styles.footerTab_icon}>
-          <IoCallOutline />
+          <a
+            href={`tel:${phoneNumber}`}
+            className="anchor_linkStyle"
+            style={{ color: "#fff" }}
+          >
+            <IoCallOutline />
+          </a>
         </span>
         <span className={styles.footerTab_text}>Call </span>
-      </Link>
+      </div>
     </div>
   );
 }
